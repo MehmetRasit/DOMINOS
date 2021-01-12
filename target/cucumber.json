@@ -3,11 +3,11 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2021-01-11T12:31:22.268Z",
-        "line": 4,
-        "name": "Login as a Usario",
+        "start_timestamp": "2021-01-12T04:41:31.993Z",
+        "line": 3,
+        "name": "Create Your pizza mediana with anchoas without salsa",
         "description": "",
-        "id": "usario-should-be-able-to-login;login-as-a-usario",
+        "id": "creatupizza;create-your-pizza-mediana-with-anchoas-without-salsa",
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
@@ -15,8 +15,8 @@
             "result": {
               "status": "undefined"
             },
-            "line": 5,
-            "name": "the user is on the login page",
+            "line": 4,
+            "name": "Go to Url",
             "match": {},
             "keyword": "Given "
           },
@@ -24,8 +24,17 @@
             "result": {
               "status": "undefined"
             },
+            "line": 5,
+            "name": "Click Creatupizza module",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
             "line": 6,
-            "name": "the user enters the usario information",
+            "name": "Select Pizza Tamanio Mediana",
             "match": {},
             "keyword": "When "
           },
@@ -34,41 +43,57 @@
               "status": "undefined"
             },
             "line": 7,
-            "name": "the user should be able to login",
+            "name": "Select  \"Pan\" in Masa",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 8,
+            "name": "Select  Sin Salsa",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 9,
+            "name": "Add Anchoa for your Pizza",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 11,
+            "name": "Click Add button",
             "match": {},
             "keyword": "Then "
           }
         ],
         "tags": [
           {
-            "name": "@login"
-          },
-          {
-            "name": "@smoke"
+            "name": "@anchoa"
           }
         ]
       }
     ],
-    "name": "Usario should be able to login",
+    "name": "Creatupizza",
     "description": "",
-    "id": "usario-should-be-able-to-login",
+    "id": "creatupizza",
     "keyword": "Feature",
-    "uri": "file:src/test/resources/features/Login.feature",
+    "uri": "file:src/test/resources/features/Creatupizza.feature",
     "tags": [
       {
-        "name": "@login",
+        "name": "@anchoa",
         "type": "Tag",
         "location": {
           "line": 1,
           "column": 1
-        }
-      },
-      {
-        "name": "@smoke",
-        "type": "Tag",
-        "location": {
-          "line": 1,
-          "column": 8
         }
       }
     ]
