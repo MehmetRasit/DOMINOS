@@ -3,75 +3,246 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2021-01-12T04:41:31.993Z",
-        "line": 3,
-        "name": "Create Your pizza mediana with anchoas without salsa",
+        "line": 4,
+        "name": "Given Go to Url",
         "description": "",
-        "id": "creatupizza;create-your-pizza-mediana-with-anchoas-without-salsa",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2021-01-13T04:30:15.384Z",
+        "line": 16,
+        "name": "Create Your pizza",
+        "description": "",
+        "id": "creatupizza;create-your-pizza;;2",
         "type": "scenario",
-        "keyword": "Scenario",
+        "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "status": "undefined"
+              "duration": 3997500,
+              "status": "skipped"
             },
-            "line": 4,
-            "name": "Go to Url",
-            "match": {},
+            "line": 8,
+            "name": "click\"Crea tu pizza\"",
+            "match": {
+              "location": "com.dominos.step_definitions.Creatupizza_Step_def.click_Crea_tu_pizza()"
+            },
             "keyword": "Given "
           },
           {
             "result": {
-              "status": "undefined"
+              "status": "skipped"
             },
-            "line": 5,
-            "name": "Click Creatupizza module",
-            "match": {},
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "status": "undefined"
+            "line": 9,
+            "name": "Select  \"Mediana\" ,\"Pan\",",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Mediana\"",
+                  "offset": 8
+                },
+                {
+                  "val": "\"Pan\"",
+                  "offset": 19
+                }
+              ],
+              "location": "com.dominos.step_definitions.Creatupizza_Step_def.select(java.lang.String,java.lang.String)"
             },
-            "line": 6,
-            "name": "Select Pizza Tamanio Mediana",
-            "match": {},
             "keyword": "When "
           },
           {
             "result": {
               "status": "undefined"
             },
-            "line": 7,
-            "name": "Select  \"Pan\" in Masa",
+            "line": 10,
+            "name": "Add \"Sin Salsa\",\"Anchoas\"",
             "match": {},
             "keyword": "And "
           },
           {
             "result": {
-              "status": "undefined"
-            },
-            "line": 8,
-            "name": "Select  Sin Salsa",
-            "match": {},
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "status": "undefined"
-            },
-            "line": 9,
-            "name": "Add Anchoa for your Pizza",
-            "match": {},
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "status": "undefined"
+              "status": "skipped"
             },
             "line": 11,
-            "name": "Click Add button",
+            "name": "click \"Añadir\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Añadir\"",
+                  "offset": 6
+                }
+              ],
+              "location": "com.dominos.step_definitions.Creatupizza_Step_def.click(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@anchoa"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "Given Go to Url",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2021-01-13T04:30:15.570Z",
+        "line": 17,
+        "name": "Create Your pizza",
+        "description": "",
+        "id": "creatupizza;create-your-pizza;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 999300,
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "click\"Crea tu pizza\"",
+            "match": {
+              "location": "com.dominos.step_definitions.Creatupizza_Step_def.click_Crea_tu_pizza()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "Select  \"Mediana\" ,\"Orginal\",",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Mediana\"",
+                  "offset": 8
+                },
+                {
+                  "val": "\"Orginal\"",
+                  "offset": 19
+                }
+              ],
+              "location": "com.dominos.step_definitions.Creatupizza_Step_def.select(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 10,
+            "name": "Add \"Salsa de Tomate\",\"Anchoas\"",
             "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "click \"Añadir\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Añadir\"",
+                  "offset": 6
+                }
+              ],
+              "location": "com.dominos.step_definitions.Creatupizza_Step_def.click(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@anchoa"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "Given Go to Url",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2021-01-13T04:30:15.584Z",
+        "line": 18,
+        "name": "Create Your pizza",
+        "description": "",
+        "id": "creatupizza;create-your-pizza;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 999200,
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "click\"Crea tu pizza\"",
+            "match": {
+              "location": "com.dominos.step_definitions.Creatupizza_Step_def.click_Crea_tu_pizza()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 998800,
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "Select  \"Mediana\" ,\"Finizzima\",",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Mediana\"",
+                  "offset": 8
+                },
+                {
+                  "val": "\"Finizzima\"",
+                  "offset": 19
+                }
+              ],
+              "location": "com.dominos.step_definitions.Creatupizza_Step_def.select(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 10,
+            "name": "Add \"Crema Fresca\",\"Anchoas\"",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "click \"Añadir\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Añadir\"",
+                  "offset": 6
+                }
+              ],
+              "location": "com.dominos.step_definitions.Creatupizza_Step_def.click(java.lang.String)"
+            },
             "keyword": "Then "
           }
         ],

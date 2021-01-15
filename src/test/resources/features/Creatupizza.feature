@@ -1,15 +1,21 @@
 @anchoa
 Feature: Creatupizza
-  Scenario: Create Your pizza mediana with anchoas without salsa
-    Given Go to Url
-And Click Creatupizza module
-When Select Pizza Tamanio Mediana
-    And Select  "Pan" in Masa
-    And Select  Sin Salsa
-    And Add Anchoa for your Pizza
 
-Then Click Add button
+  Background:  Given Go to Url
 
+
+  Scenario Outline:  Create Your pizza
+    Given click"Crea tu pizza"
+    When Select  "<Pizza Size>" ,"<Type Bread>",
+  And Add "<Salsa>","<Ingredients>"
+    Then click "Añadir"
+
+
+   Examples:
+     | Pizza Size |Type Bread|   Ingredients      |   Salsa           |
+     | Mediana    | Pan      |        Anchoas     |   Sin Salsa        |
+     | Mediana    | Orginal  |        Anchoas     |   Salsa de Tomate |
+     | Mediana    | Finizzima|        Anchoas     |     Crema Fresca  |
 
 
 

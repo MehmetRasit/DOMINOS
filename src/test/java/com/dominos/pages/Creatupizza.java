@@ -23,5 +23,5 @@ public class Creatupizza extends com.dominos.pages.BasePage {
 @FindBy(xpath = "//label[contains(text(),'Sin salsa')]")
     WebElement sinsalsa;
 @FindBy(xpath = "//button[@id='addCreaPizza']")
-    WebElement Add;
+    WebElement Añadir;
 }

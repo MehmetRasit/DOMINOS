@@ -12,8 +12,8 @@ import org.junit.runner.RunWith;
                 "html:target/default-html-reports",
                 "rerun:target/rerun.txt"},
         features = "src/test/resources/features",
-        glue = "Com/dominos/step_definitions",
-        dryRun = false,
+        glue = "com/dominos/step_definitions",
+        dryRun =true,
         tags = "@anchoa"
 )
 public class CukesRunner {
